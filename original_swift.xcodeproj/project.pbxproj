@@ -13,6 +13,9 @@
 		1127BC2D1A93101D003502F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1127BC2C1A93101D003502F8 /* Images.xcassets */; };
 		1127BC301A93101D003502F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1127BC2E1A93101D003502F8 /* LaunchScreen.xib */; };
 		1127BC3C1A93101D003502F8 /* original_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1127BC3B1A93101D003502F8 /* original_swiftTests.swift */; };
+		114B05DB1A9588C70032FBA1 /* se-039a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 114B05DA1A9588C70032FBA1 /* se-039a.mp3 */; };
+		114B05DD1A9588DB0032FBA1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114B05DC1A9588DB0032FBA1 /* AVFoundation.framework */; };
+		114B05DF1A9590920032FBA1 /* wao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 114B05DE1A9590920032FBA1 /* wao.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		1127BC351A93101D003502F8 /* original_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = original_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1127BC3A1A93101D003502F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1127BC3B1A93101D003502F8 /* original_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = original_swiftTests.swift; sourceTree = "<group>"; };
+		114B05DA1A9588C70032FBA1 /* se-039a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "se-039a.mp3"; sourceTree = "<group>"; };
+		114B05DC1A9588DB0032FBA1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		114B05DE1A9590920032FBA1 /* wao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wao.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114B05DD1A9588DB0032FBA1 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +66,7 @@
 		1127BC171A93101D003502F8 = {
 			isa = PBXGroup;
 			children = (
+				114B05DC1A9588DB0032FBA1 /* AVFoundation.framework */,
 				1127BC221A93101D003502F8 /* original_swift */,
 				1127BC381A93101D003502F8 /* original_swiftTests */,
 				1127BC211A93101D003502F8 /* Products */,
@@ -77,6 +85,8 @@
 		1127BC221A93101D003502F8 /* original_swift */ = {
 			isa = PBXGroup;
 			children = (
+				114B05DE1A9590920032FBA1 /* wao.mp3 */,
+				114B05DA1A9588C70032FBA1 /* se-039a.mp3 */,
 				1127BC251A93101D003502F8 /* AppDelegate.swift */,
 				1127BC271A93101D003502F8 /* ViewController.swift */,
 				1127BC291A93101D003502F8 /* Main.storyboard */,
@@ -192,9 +202,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114B05DF1A9590920032FBA1 /* wao.mp3 in Resources */,
 				1127BC2B1A93101D003502F8 /* Main.storyboard in Resources */,
 				1127BC301A93101D003502F8 /* LaunchScreen.xib in Resources */,
 				1127BC2D1A93101D003502F8 /* Images.xcassets in Resources */,
+				114B05DB1A9588C70032FBA1 /* se-039a.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				1127BC411A93101D003502F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1127BC421A93101D003502F8 /* Build configuration list for PBXNativeTarget "original_swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				1127BC441A93101D003502F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
